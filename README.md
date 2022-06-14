@@ -1,6 +1,6 @@
 # Phonebook
 Phonebook full responsive web service.
-Functionality:
+#### Functionality:
 - automatically show favorites contact ordered by name first and after not favorites contact always ordered by name;
 - add new contact;
 - add new group;
