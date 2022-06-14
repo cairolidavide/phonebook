@@ -1,0 +1,422 @@
+.search-container {
+    height: 80px;
+    width: 100%;
+    margin-bottom: 5%;  
+}
+
+#contact-search-form {
+    margin-left: 10%;
+}
+
+#search-title {
+    margin-right:4%;
+    font-weight: bold;
+    font-size: large;
+}
+
+#surname-input {
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.382);
+    border-radius: 20px;
+    height: 70px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.search-button-container {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+#search-button {
+    background-color: rgb(0, 145, 255);
+    border: 1px solid rgb(0, 145, 255);
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+#search-button:hover {
+    transition: 0.2s;
+    height: 55px;
+    width: 55px;
+}
+
+#search-button:active {
+    transition: 0.2s;
+    font-size: 12px;
+    height: 40px;
+    width: 40px;
+}
+
+#back-button {
+    background-color: rgb(0, 145, 255);
+    border: 1px solid rgb(0, 145, 255);
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+#back-button:hover {
+    transition: 0.2s;
+    height: 55px;
+    width: 55px;
+}
+
+#back-button:active {
+    transition: 0.2s;
+    font-size: 12px;
+    height: 40px;
+    width: 40px;
+}
+
+.add-contact-button-container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#add-button {
+    margin-left: 35%;
+    margin-top: 5px;
+    background-color: rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 100px;
+    font-size: 30px;
+    color: white;
+    height: 60px;
+    width: 60px;
+}
+
+#add-button:hover {
+    height: 65px;
+    width: 65px;
+    transition:0.2s;
+}
+
+#add-button:active {
+    height: 55px;
+    width: 55px;
+    transition:0.2s;
+}
+
+#add-contact-button {
+    background-color: rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+#add-contact-button:hover {
+    transition: 0.2s;
+    height: 55px;
+    width: 55px;
+}
+
+#add-contact-button:active {
+    transition: 0.2s;
+    font-size: 12px;
+    height: 40px;
+    width: 40px;
+}
+
+#add-button-exit {
+    background-color: rgb(255, 115, 0);
+    border: 1px solid rgb(255, 115, 0);
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+#add-button-exit:hover {
+    transition: 0.2s;
+    height: 55px;
+    width: 55px;
+}
+
+#add-button-exit:active {
+    transition: 0.2s;
+    font-size: 12px;
+    height: 40px;
+    width: 40px;
+}
+
+#add-category-button {
+    background-color: rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+}
+
+#add-category-button:hover {
+    transition: 0.2s;
+    height: 55px;
+    width: 55px;
+}
+
+#add-category-button:active {
+    transition: 0.2s;
+    font-size: 12px;
+    height: 40px;
+    width: 40px;
+}
+
+.no-display {
+    display: none;
+}
+
+/* MOBILE VERSION */
+@media screen and (max-width: 991px){
+    .search-container {
+        margin-top: 10%;
+        height: 110px;
+    }
+
+    #search-title {
+        margin-right:5%;
+        font-size: small;
+    }
+
+    #surname-input {
+        width: 75%;
+        height: 50px;
+        border-radius: 12px;
+        font-size: small;
+    }
+
+    #search-button {
+        margin-left: 10px;
+        margin-top: 6px;
+        height: 40px;
+        width: 40px;
+    }
+
+    #search-button:hover {
+        height: 45px;
+        width: 45px;
+    }
+
+    #search-button:active {
+        height: 35px;
+        width: 35px;
+    }
+
+    #back-button {
+        margin-top: 6px;
+        margin-left: 10px;
+        height: 40px;
+        width: 40px;
+    }
+
+    #back-button:hover {
+        height: 45px;
+        width: 45px;
+    }
+
+    #back-button:active {
+        height: 35px;
+        width: 35px;
+    }
+
+    #add-button {
+        margin-left: 0px;
+        margin-top: 6px;
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+
+    #add-button:hover {
+        height: 45px;
+        width: 45px;
+    }
+
+    #add-button:active {
+        height: 35px;
+        width: 35px;
+    }
+
+    #add-button-exit {
+        margin-top: 6px;
+        height: 40px;
+        width: 40px;
+    }
+
+    #add-button-exit:hover {
+        height: 45px;
+        width: 45px;
+    }
+
+    #add-button-exit:active {
+        height: 35px;
+        width: 35px;
+    }
+
+    #add-contact-button {
+        margin-top: 0px;
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+
+    #add-contact-button:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #add-contact-button:active {
+        height: 30px;
+        width: 30px;
+    }
+
+    #add-category-button {
+        margin-top: 0px;
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+
+    #add-category-button:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #add-category-button:active {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    #search-title {
+        margin-bottom: 5%;
+    }
+    
+    #surname-input {
+        width: 90%;
+        font-size: x-small;
+    }
+
+    #search-button {
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+
+    #search-button:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #search-button:active {
+        height: 30px;
+        width: 30px;
+    }
+
+    #back-button {
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+
+    #back-button:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #back-button:active {
+        height: 30px;
+        width: 30px;
+    }
+
+    #add-button {
+        margin-top: 40px;
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+
+    #add-button:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #add-button:active {
+        height: 30px;
+        width: 30px;
+    }
+
+    #add-button-exit{
+        margin-top: 40px;
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+
+    #add-button-exit:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #add-button-exit:active {
+        height: 30px;
+        width: 30px;
+    }
+
+    #add-contact-button {
+        margin-top: 0px;
+        height: 30px;
+        width: 30px;
+        font-size: 13px;
+    }
+
+    #add-contact-button:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #add-contact-button:active {
+        height: 30px;
+        width: 30px;
+    }
+
+    #add-category-button {
+        margin-top: 0px;
+        height: 30px;
+        width: 30px;
+        font-size: 13px;
+    }
+
+    #add-category-button:hover {
+        height: 40px;
+        width: 40px;
+    }
+
+    #add-category-button:active {
+        height: 30px;
+        width: 30px;
+    }
+}

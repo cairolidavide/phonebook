@@ -1,0 +1,74 @@
+.group-header-title {
+    background-color: rgba(232, 232, 232, 0.761);
+}
+
+.close-group-modal-button {
+    font-size: xx-large;
+    color: gray;
+}
+
+.close-group-modal-button:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
+
+.close-group-modal-button:active {
+    font-size: x-large;
+    transition: 0.1s;
+}
+
+.all-groups-title {
+    margin-bottom: 5%;
+}
+
+.separate-row {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.add-group-form {
+    text-align: center;
+}
+
+#new-group-name-label {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#new-group-name {
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 40%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#maxlength-text {
+    font-size: x-small;
+    font-style: italic;
+    font-weight: bold;
+    color: gray;
+}
+
+.save-category-button-container {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.save-category-button:hover {
+    background-color: black;
+    transition: 0.2s;
+}
+
+.unclickable {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: rgb(158, 158, 158);
+    border:1px solid 158, 158, 158;
+    color: rgb(101, 101, 101);
+}

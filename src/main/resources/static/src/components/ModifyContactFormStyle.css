@@ -1,0 +1,73 @@
+.modify-contact-header-title {
+    background-color: rgb(0, 145, 255);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    color: white;
+}
+
+.modify-close-modal-button {
+    font-size: xx-large;
+}
+
+.modify-close-modal-button:hover {
+    cursor: pointer;
+    color: rgb(0, 69, 180);
+    transition: 0.5s;
+}
+
+.modify-close-modal-button:active {
+    font-size: x-large;
+    transition: 0.1s;
+}
+
+.modify-contact-form {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
+.modify-contact-label {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.modify-contact-input {
+    height: 35px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.modify-check-phrase {
+    margin-left: 3%;
+}
+
+.modify-contact-save-button {
+    background-color: rgb(0, 145, 255);
+    font-weight: bold;
+    border: 1px solid rgb(0, 145, 255);
+    color: white;
+}
+
+.modify-contact-save-button:hover {
+    background-color: rgb(0, 69, 180);
+    color: white;
+    border: 1px solid rgb(0, 69, 180);
+    transition: 0.2s;
+}
+
+.modify-disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: rgb(158, 158, 158);
+    border:1px solid 158, 158, 158;
+    color: rgb(101, 101, 101);
+}
+
+.modify-no-display {
+    display: none;
+}

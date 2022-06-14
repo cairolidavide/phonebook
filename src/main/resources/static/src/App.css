@@ -1,0 +1,52 @@
+.header {
+  background-color: rgba(241, 241, 241, 0.727);
+  border: 1px solid rgba(232, 232, 232, 0.761);
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+/* MOBILE VERSION */
+@media screen and (max-width: 991px){
+  .header {
+    padding-bottom: 4%;
+  }
+
+  #app-container {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header {
+    padding-bottom: 4%;
+    width: 100%;
+  }
+
+  #app-container {
+    padding: 0px;
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  #app-container {
+    padding: 0px;
+  }
+
+  .header {
+    width: 100%;
+    padding-bottom: 4%;
+  }
+}
+
+
+@media screen and (max-width: 280px) {
+  .header {
+    width: 100%;
+    padding-bottom: 15%;
+  }
+}
+

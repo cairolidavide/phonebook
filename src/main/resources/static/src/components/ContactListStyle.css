@@ -1,0 +1,464 @@
+.list-title {
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.contact-container {
+    margin: 5% auto 0 auto;
+    border: 1px solid rgba(232, 232, 232, 0.761);
+    background-color: rgba(244, 244, 244, 0.751);
+    border-radius: 15px;
+    height: 120px;
+    width: 85%;
+}
+
+.contact-container:hover {
+    width: 90%;
+    transition: 0.2s;
+}
+
+.initial-of-name-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-of-name {
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgba(232, 232, 232, 0.761);
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-of-name span {
+   font-size: xx-large;
+   font-weight: bold;
+}
+
+.contact-name {
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 1.5%;
+}
+
+.group-name {
+    font-size: small;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.group-name-text {
+    margin-left: 3%;
+}
+
+.contact-phone {
+    font-size: medium;
+    font-style: italic;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.favorite-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+}
+
+.favorite {
+    background-color: rgba(244, 244, 244, 0);
+    border: none;
+    font-size: x-large;
+    color: rgb(165, 165, 165);
+    align-items: center;
+}
+
+.favorite:hover {
+    font-size: 35px;
+    transition: 0.1s;
+    color: rgb(255, 208, 0);
+}
+
+.favorite:active {
+    font-size: 30px;
+    transition: 0.1s;
+}
+
+.favorite-active {
+    background-color: rgba(244, 244, 244, 0);
+    border: none;
+    font-size: x-large;
+    color: rgb(255, 208, 0);
+    align-items: center;
+}
+
+.favorite-active:hover {
+    font-size: 35px;
+    transition: 0.1s;
+    color: rgb(165, 165, 165);
+}
+
+.favorite-active:active {
+    font-size: 30px;
+    transition: 0.1s;
+}
+
+.delete-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+}
+
+.delete-contact {
+    background-color: rgba(244, 244, 244, 0);
+    border: none;
+    font-size: x-large;
+    color: rgb(165, 165, 165);
+    align-items: center;
+}
+
+.delete-contact:hover {
+    font-size: 35px;
+    transition: 0.1s;
+    color: rgb(255, 0, 0);
+}
+
+.delete-contact:active {
+    font-size: 30px;
+    transition: 0.1s;
+}
+
+.update-contact-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+}
+
+.update-contact-button {
+    background-color: rgba(244, 244, 244, 0);
+    border: none;
+    font-size: x-large;
+    color: rgb(165, 165, 165);
+    align-items: center;
+}
+
+.update-contact-button:hover {
+    font-size: 35px;
+    transition: 0.1s;
+    color: rgb(0, 162, 255);
+}
+
+.update-contact-button:active {
+    font-size: 30px;
+    transition: 0.1s;
+}
+
+.alphabet-search {
+    margin-top: 118%;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    color: gray;
+    width: 100%;
+    height: 100%;
+}
+
+.alphabet-search p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.alphabet-search p:hover {
+    margin-right: 30px;
+    font-size: xx-large;
+    color: rgb(64, 64, 64);
+    transition: 0.1s;
+    cursor: pointer; 
+}
+
+#star-search:hover {
+    color: rgb(255, 208, 0);
+}
+
+.bold-char {
+    margin-right: 30px;
+    font-size: xx-large;
+    color: rgb(64, 64, 64);
+    cursor: pointer;
+}
+
+.yellow-star {
+    color: rgb(255, 208, 0);
+}
+
+#back-row {
+    color: rgb(0, 162, 255);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.no-contact-message {
+    margin-top: 5%;
+    color: rgb(155, 155, 155);
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.no-display {
+    display: none;
+    transition: 1.5s;
+}
+
+.button-container {
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-pre {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(0, 145, 255);
+    border-radius: 200px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.page-position {
+    margin: 5%;
+    font-weight: bold;
+}
+
+.button-post {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 200px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-weight: bold;
+}
+
+/* MOBILE VERSION */
+@media screen and (max-width: 991px){
+    .contact-list-container {
+        margin-top:5%;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .contact-container:hover {
+        width: 100%;
+        height: 120px;
+        transition: 0.2s;
+    }
+
+    .initial-of-name {
+        height: 50px;
+        width: 50px;
+    }
+
+    .initial-of-name span {
+        font-size: x-large;
+    }
+
+    .contact-name {
+        margin-top: 9px;
+        font-size: 15px;
+    }
+    
+    .group-name {
+        font-size: small;
+    }
+    
+    .group-name-text {
+        margin-left: 3%;
+    }
+    
+    .contact-phone {
+        font-size: medium;
+    }
+
+    .update-contact-button {
+        margin-right: 10px;
+    }
+
+    .delete-contact {
+        margin-right: 10px;
+    }
+
+    .favorite {
+        font-size: 15px;
+    }
+
+    .favorite:hover {
+        font-size: 20px;
+    }
+
+    .favorite-active {
+        font-size: 15px;
+    }
+
+    .favorite-active:hover {
+        font-size: 20px;
+    }
+
+    .delete-contact {
+        font-size: 15px;
+    }
+
+    .delete-contact:hover {
+        font-size: 20px;
+    }
+
+    .update-contact-button {
+        font-size: 15px;
+    }
+
+    .update-contact-button:hover {
+        font-size: 20px;
+    }
+
+    .alphabet-search {
+        margin-top: 250%;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .contact-container {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-container:hover {
+        width: 100%;
+        height: 130px;
+    }
+
+    .alphabet-search {
+        margin-top: 600%;
+    }
+
+    .button-container {
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .list-title {
+        font-size: small;
+    }
+    
+    .contact-list-container {
+        margin-top:5%;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    #inital-of-name-col {
+        display: none;
+    }
+
+    .contact-container:hover {
+        width: 100%;
+        height: 120px;
+        transition: 0.2s;
+    }
+
+    .contact-name {
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    
+    .group-name {
+        font-size: x-small;
+        margin-left: 10px;
+    }
+    
+    .group-name-text {
+        margin-left: 3%;
+    }
+    
+    .contact-phone {
+        font-size: small;
+        margin-left: 10px;
+    }
+
+    .contact-button {
+        margin-left: 10px
+    }
+    
+    .update-contact-button {
+        margin-left: 0px;
+    }
+
+    .delete-contact {
+        margin-left: 0px;
+    }
+
+    .favorite {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .favorite:hover {
+        font-size: 20px;
+    }
+
+    .favorite-active {
+        font-size: 15px;
+    }
+
+    .favorite-active:hover {
+        font-size: 20px;
+    }
+
+    .delete-contact {
+        font-size: 15px;
+    }
+
+    .delete-contact:hover {
+        font-size: 20px;
+    }
+
+    .update-contact-button {
+        font-size: 15px;
+    }
+
+    .update-contact-button:hover {
+        font-size: 20px;
+    }
+
+    .alphabet-search {
+        margin-top: 1050%;
+    }
+}
+
+
